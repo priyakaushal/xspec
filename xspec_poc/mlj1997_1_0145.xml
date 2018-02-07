@@ -71,33 +71,7 @@
   <case:headnote>
    <case:length>95 pages </case:length>
    <case:info>
-    <case:reportercite>
-
-     <ci:cite type="cite4thisdoc">
-
-      <ci:case>
-
-       <ci:caseinfo>
-        <ci:decisiondate year="1997"/>
-       </ci:caseinfo>
-       <ci:caseref>
-
-        <ci:reporter value="MLJ"/>
-        <ci:volume num="1"/>
-        <ci:edition>
-         <ci:date year="1997"/>
-        </ci:edition>
-        <ci:page num="145"/>
-       </ci:caseref>
-      </ci:case>
-
-      <ci:content>
-
-       <citefragment searchtype="CASE-CITE-REF"> &#x005B;1997&#x005D; 1 MLJ 145 </citefragment>
-      </ci:content>
-
-     </ci:cite>
-    </case:reportercite>
+    <case:reportercite>  <ci:cite type="cite4thisdoc">  <ci:case>  <ci:caseinfo> <ci:decisiondate year="1997"/> </ci:caseinfo> <ci:caseref>  <ci:reporter value="MLJ"/> <ci:volume num="1"/> <ci:edition> <ci:date year="1997"/> </ci:edition> <ci:page num="145"/> </ci:caseref> </ci:case>  <ci:content>  <citefragment searchtype="CASE-CITE-REF"> &#x005B;1997&#x005D; 1 MLJ 145 </citefragment> </ci:content>  </ci:cite> </case:reportercite>
 
     <case:casename>R RAMA CHANDRAN v THE INDUSTRIAL COURT OF MALAYSIA &amp; ANOR </case:casename>
 

@@ -104,5 +104,10 @@
                     2004)</caseinfo:alternatecasename>
         </x:expect>
     </x:scenario>
-    
+    <x:scenario label="Scenario for 4.6. case:reportercite">
+        <x:context href="mlj1997_1_0145.xml" select="/CASEDOC/case:body[1]/case:headnote[1]/case:info[1]/case:reportercite[1]"/>
+        <x:expect label="">
+            <ref:citations><ref:cite4thisresource citetype="reporter">  <lnci:cite>  <lnci:case>  <lnci:caseinfo> <lnci:decisiondate year="1997"/> </lnci:caseinfo> <lnci:caseref>  <lnci:reporter value="MLJ"/> <lnci:volume num="1"/> <lnci:edition> <lnci:date year="1997"/> </lnci:edition> <lnci:page num="145"/> </lnci:caseref> </lnci:case>  <lnci:content>   [1997] 1 MLJ 145  </lnci:content>  </lnci:cite> </ref:cite4thisresource></ref:citations>
+        </x:expect>
+    </x:scenario>
 </x:description>
