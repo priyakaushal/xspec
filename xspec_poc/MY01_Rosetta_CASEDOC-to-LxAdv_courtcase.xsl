@@ -2253,7 +2253,7 @@ Disallowed characters: , !, ", #, $, %, &, ', (, ), *, +, ,, /, :, ;, <, =, >, ?
             <xsl:value-of select="normalize-space(translate(., translate(substring-after('0123456789', ''), '', ''), ''))"/>
          </xsl:attribute>
          <xsl:attribute name="source">
-            <xsl:text>unknown</xsl:text> <!-- Priya Kaushal added this on 2/22/2018 -->
+            <xsl:text>conversion</xsl:text> <!-- Priya Kaushal added this on 2/22/2018 -->
          </xsl:attribute>
       </xsl:element>
    </xsl:template>
