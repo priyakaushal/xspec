@@ -105,4 +105,23 @@
             <ref:citations><ref:cite4thisresource citetype="reporter">  <lnci:cite>  <lnci:case>  <lnci:caseinfo> <lnci:decisiondate year="1997"/> </lnci:caseinfo> <lnci:caseref>  <lnci:reporter value="MLJ"/> <lnci:volume num="1"/> <lnci:edition> <lnci:date year="1997"/> </lnci:edition> <lnci:page num="145"/> </lnci:caseref> </lnci:case>  <lnci:content>   [1997] 1 MLJ 145  </lnci:content>  </lnci:cite> </ref:cite4thisresource></ref:citations>
         </x:expect>
     </x:scenario>
+<x:scenario label="">
+    <x:context>
+        <link refpt="x98-1174a2">page 324 line 46</link>
+    </x:context>
+    <x:expect label="">
+        <ref:lnlink xmlns:ref="http://www.lexisnexis.com/xmlschemas/content/shared/reference/1/">
+            <ref:marker>page 324 line 46</ref:marker>
+            <ref:locator anchoridref="x98-1174a2"></ref:locator>
+        </ref:lnlink>
+    </x:expect>
+</x:scenario>
+    <x:scenario label="">
+        <x:context>
+            <link type="pdf" smi="98765" filename="xmpl-c1.pdf" status="valid">Download in PDF</link>
+        </x:context>
+        <x:expect label="">
+            Hello
+        </x:expect>
+    </x:scenario>
 </x:description>
