@@ -8931,7 +8931,7 @@ ref:lnlink[@service="DOCUMENT"]. Added this for UK11DN -->
    <xsl:template match="remotelink[@service='DOC-ID'][parent::docinfo:assoc-links or parent::docinfo:assoc-links-grp]">
       <doc:related-content-item>
          <xsl:if test="parent::docinfo:assoc-links[@assoc-content='external-content-location']">
-            <xsl:attribute name="content-type">internal-content-location</xsl:attribute>
+            <xsl:attribute name="content-type"></xsl:attribute>
          </xsl:if>
          <doc:related-content-link>
             <ref:lnlink>
