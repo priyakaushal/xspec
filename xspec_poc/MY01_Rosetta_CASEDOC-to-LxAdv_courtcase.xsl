@@ -65,6 +65,7 @@
                 xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
                 version="2.0"
                 exclude-result-prefixes="#all">
+<!--chaitanya-->
    <xd:doc>
       <xd:desc><!--  this will become the title of the PDF created from the DITA modules (documentation)  -->
          <xd:p>
