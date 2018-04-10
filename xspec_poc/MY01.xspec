@@ -116,12 +116,12 @@
         </ref:lnlink>
     </x:expect>
 </x:scenario>
-    <x:scenario label="">
+    <!--<x:scenario label="">
         <x:context>
             <link type="pdf" smi="98765" filename="xmpl-c1.pdf" status="valid">Download in PDF</link>
         </x:context>
         <x:expect label="">
             Hello
         </x:expect>
-    </x:scenario>
+    </x:scenario>-->
 </x:description>
